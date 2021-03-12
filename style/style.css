@@ -370,18 +370,7 @@ body {
     color: #242424;
     width: 617px;
 }
-/* 
-.p-description {
-    font-family: Gotham Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 140%;
-    color: #242424;
-    width: 600px;
-} */
-
-
+ 
 .p-description {
     font-family: Gotham Pro;
     font-style: normal;
@@ -464,6 +453,11 @@ body {
     .p-like {
         font-size: 15px;
     }
+
+    .bottle-img {
+       width: 340px;
+       height: auto;
+    }
 }
 
 
@@ -519,6 +513,11 @@ body {
     .p-like {
         font-size: 15px;
     }
+
+    .bottle-img img {
+        width: 310px;
+        height: auto;
+     }
 }
 
 
@@ -576,6 +575,24 @@ body {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
     }
+
+    .section-bootle {
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .bottle-img {
+        margin-top: 200px;
+        margin-left: 150px;
+        margin-bottom: 40px;
+        /* border: 1px solid; */
+     }
+
+    .bottle-img img {
+        width: 300px;
+        height: 300px;
+     }
 
 }
 
