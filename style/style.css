@@ -320,6 +320,7 @@ body {
     justify-content: flex-start;
     background: no-repeat url("../img/gradient-img-1.png");
     width: 100%;
+    margin-bottom: 120px;
 }
 
 .section-bootle {
@@ -380,6 +381,92 @@ body {
     color: #242424;
     width: 600px;
 }
+
+
+.section--5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-elements {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.procent {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 100%;
+    color: #C4C4C4;
+    margin-bottom: 20px;
+}
+
+.advanteges__small {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    color: #C4C4C4;
+}
+
+
+.advanteges__processing {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 100%;
+    color: #C4C4C4;
+    width: 270px;
+}
+
+.advanteges__forest {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 100%;
+    color: #C4C4C4;
+    width: 295px;
+}
+
+
+.paragraph {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    width: 310px;
+}
+
+/*
+.main-logo {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    justify-content: space-between;
+}
+*/
+
 
 @media screen and (max-width: 1200px){
 
@@ -647,7 +734,6 @@ body {
 
 @media screen and (max-width: 375px) {
 
-
     .container-logo {
         margin-left: 0;
     }
@@ -712,6 +798,10 @@ body {
     .p-description {
         width: 300px;
     }
+
+    .section-elements {
+        grid-template-columns: repeat(1, 1fr);
+    }
 } 
 
 
@@ -740,10 +830,12 @@ body {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 50px;
     }
+
     .h1-packing {
         font-size:28px;
         width: 300px;
     }
+
     .main-icon {
         grid-auto-flow: row;
         justify-content: center;
